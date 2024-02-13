@@ -38,7 +38,7 @@ CREATE TABLE `admina` (
 
 INSERT INTO `admina` (`email`, `password`) VALUES
 ('elazzouzi@gmail.com', '123456'),
-('youssef@gmail.com', '123456');
+('??????', '123456');
 
 -- --------------------------------------------------------
 
@@ -58,10 +58,10 @@ CREATE TABLE `adultea` (
 --
 
 INSERT INTO `adultea` (`nom`, `prenom`, `age`, `email`) VALUES
-('houssni', 'nadia', 24, 'youssef@gmail.com'),
-('uuuuuuuu', 'ffff', 44, 'elazzouzi@gmail.com'),
-('zerhouni ', 'zineb', 19, 'youssef@gmail.com'),
-('l9admiri', 'brahim', 20, 'elazzouzi@gmail.com');
+('lllll', 'nadia', 24, '?????@gmail.com'),
+('uuuuuuuu', 'ffff', 44, '?????@gmail.com'),
+('iiiiii ', 'llllll', 19, '?????@gmail.com'),
+('aaaaa', 'lllll', 20, '?????@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -81,15 +81,15 @@ CREATE TABLE `blackliste` (
 --
 
 INSERT INTO `blackliste` (`url`, `date_d`, `date_f`, `email`) VALUES
-('www.facebook.com', 20, 21, 'youssef@gmail.com'),
-('www.facebook.com', 20, 21, 'youssef@gmail.com'),
-('www.facebook.com', 20, 21, 'youssef@gmail.com'),
-('www.facebook.com', 20, 21, 'youssef@gmail.com'),
-('www.facebook.com', 20, 21, 'youssef@gmail.com'),
-('www.facebook.com', 20, 21, 'youssef@gmail.com'),
-('www.facebook.com', 20, 21, 'youssef@gmail.com'),
-('www.instagram.com', 20, 21, 'youssef@gmail.com'),
-('www.gmail.com', 21, 22, 'youssef@gmail.com');
+('www.facebook.com', 20, 21, '??????'),
+('www.facebook.com', 20, 21, '??????'),
+('www.facebook.com', 20, 21, '??????'),
+('www.facebook.com', 20, 21, '??????'),
+('www.facebook.com', 20, 21, '??????'),
+('www.facebook.com', 20, 21, '??????'),
+('www.facebook.com', 20, 21, '??????'),
+('www.instagram.com', 20, 21, '??????'),
+('www.gmail.com', 21, 22, '??????');
 
 -- --------------------------------------------------------
 
@@ -109,9 +109,9 @@ CREATE TABLE `filsa` (
 --
 
 INSERT INTO `filsa` (`nom`, `prenom`, `age`, `email`) VALUES
-('lehmachi', 'mohamed', 12, 'youssef@gmail.com'),
-('dddd', 'ffff', 12, 'elazzouzi@gmail.com'),
-('l9admiri', 'brahim', 15, 'youssef@gmail.com');
+('??????', 'mohamed', 12, '??????'),
+('dddd', 'ffff', 12, '???????'),
+('llllll', 'brahim', 15, '??????');
 
 -- --------------------------------------------------------
 
@@ -129,7 +129,7 @@ CREATE TABLE `motcle` (
 --
 
 INSERT INTO `motcle` (`motcle`, `email`) VALUES
-('Violence', 'youssef@gmail.com');
+('Violence', '??????');
 
 -- --------------------------------------------------------
 
@@ -147,12 +147,12 @@ CREATE TABLE `whiteliste` (
 --
 
 INSERT INTO `whiteliste` (`url`, `email`) VALUES
-('www.facebook.com', 'youssef@gmail.com'),
-('www.instagram.com', 'youssef@gmail.com'),
-('www.youtube.com', 'youssef@gmail.com'),
-('www.gmail.com', 'youssef@gmail.com'),
-('www.facebook.com', 'elazzouzi@gmail.com'),
-('www.stackoverflow.com', 'youssef@gmail.com');
+('www.facebook.com', '??????'),
+('www.instagram.com', '??????'),
+('www.youtube.com', '??????'),
+('www.gmail.com', '??????'),
+('www.facebook.com', '?????'),
+('www.stackoverflow.com', '??????');
 
 --
 -- Index pour les tables déchargées
